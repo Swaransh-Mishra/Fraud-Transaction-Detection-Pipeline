@@ -67,7 +67,7 @@ To get this application running on your own machine, please follow the steps bel
     First, you'll need a local copy of the project. Open your terminal, navigate to your desired directory, and clone the repository using `git`.
 
     ```bash
-    git clone [https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git](https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git)
+    git clone https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git
     cd Fraud-Transaction-Detection-Pipeline
     ```
 
@@ -77,11 +77,12 @@ To get this application running on your own machine, please follow the steps bel
 
     ```bash
     # Create the environment
-    python -m venv .venv
+      python -m venv .venv
 
     # Activate the environment (use the command for your OS)
     # Windows:
     .\.venv\Scripts\activate
+    
     # macOS/Linux:
     # source .venv/bin/activate
     ```
@@ -102,7 +103,7 @@ To get this application running on your own machine, please follow the steps bel
     streamlit run app.py
     ```
 
-    You can then access the dashboard at the provided local URL (usually `http://localhost:8501`).
+    You can then access the dashboard at the provided local URL (usually http://localhost:8501).
 
 After running the command, Streamlit will provide a local URL (like http://localhost:8501) that you can open in your browser to use the dashboard.
 
