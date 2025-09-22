@@ -103,7 +103,8 @@ To get this application running on your own machine, please follow the steps bel
     streamlit run app.py
     ```
 
-    After running the command, your web browser should open the application automatically. If it doesn't, open a new tab and navigate to http://localhost:8501 to view the dashboard.
+    After running the command, your web browser should open the application automatically. If it doesn't, open a new tab and navigate to http:// localhost:8501 to view the dashboard.
+  
 🙌 Closing Thoughts
 This project demonstrates a comprehensive approach to solving a critical financial problem using machine learning. By building a highly accurate and interpretable model, this pipeline showcases the potential of AI to create robust systems that can enhance security and build trust in digital transactions. While not a production-ready system, it serves as a strong proof-of-concept for data-driven fraud detection.
 
