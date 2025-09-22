@@ -58,32 +58,51 @@ To ensure the model's decisions are transparent, I used **SHAP (SHapley Additive
 -   These insights confirm that the model learns patterns that align with real-world fraud scenarios, increasing trust in its predictions.
 
 ---
-### 🔧 **How to Run Locally**
+### 🔧 Running the Dashboard Locally
 
-#### 1. Clone the Repository
-Open your terminal and run the following command:
+To get this application running on your own machine, please follow the steps below to set up the environment and launch the server.
 
-git clone [https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git](https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git)
-cd Fraud-Transaction-Detection-Pipeline
+* **1. Get a Local Copy**
 
-2. Create a Virtual Environment (Recommended)
-It's best practice to create a virtual environment to manage dependencies.
+    First, you'll need a local copy of the project. Open your terminal, navigate to your desired directory, and clone the repository using `git`.
 
-# For Windows
-python -m venv .venv
-.\.venv\Scripts\activate
+    ```bash
+    git clone [https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git](https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git)
+    cd Fraud-Transaction-Detection-Pipeline
+    ```
 
-# For macOS/Linux
-python3 -m venv .venv
-source .venv/bin/activate
+* **2. Set Up the Environment**
 
-3. Install Dependencies
-Install all the required libraries using the requirements.txt file.
-pip install -r requirements.txt
+    It is highly recommended to use a virtual environment to keep the project's dependencies isolated. The following commands will create a new environment and activate it.
 
-4. Run the Streamlit App
-Launch the web application by running:
-streamlit run app.py
+    ```bash
+    # Create the environment
+    python -m venv .venv
+
+    # Activate the environment (use the command for your OS)
+    # Windows:
+    .\.venv\Scripts\activate
+    # macOS/Linux:
+    # source .venv/bin/activate
+    ```
+
+* **3. Install Dependencies**
+
+    With the environment activated, install all the required libraries from the `requirements.txt` file.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+* **4. Launch the Application**
+
+    Finally, start the Streamlit web server. Once the server is running, it will automatically open the dashboard in your default web browser.
+
+    ```bash
+    streamlit run app.py
+    ```
+
+    You can then access the dashboard at the provided local URL (usually `http://localhost:8501`).
 
 After running the command, Streamlit will provide a local URL (like http://localhost:8501) that you can open in your browser to use the dashboard.
 
