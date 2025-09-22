@@ -62,7 +62,7 @@ To ensure the model's decisions are transparent, I used **SHAP (SHapley Additive
 
 #### 1. Clone the Repository
 Open your terminal and run the following command:
-```bash
+
 git clone [https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git](https://github.com/your-username/Fraud-Transaction-Detection-Pipeline.git)
 cd Fraud-Transaction-Detection-Pipeline
 
