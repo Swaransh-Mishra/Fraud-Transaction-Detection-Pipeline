@@ -103,9 +103,9 @@ To get this application running on your own machine, please follow the steps bel
     streamlit run app.py
     ```
 
-    You can then access the dashboard at the provided local URL (usually http://localhost:8501).
+    You can then access the dashboard at the provided local URL (usually 'http://localhost:8501').
 
-After running the command, Streamlit will provide a local URL (like http://localhost:8501) that you can open in your browser to use the dashboard.
+After running the command, Streamlit will provide a local URL (like 'http://localhost:8501') that you can open in your browser to use the dashboard.
 
 🙌 Closing Thoughts
 This project demonstrates a comprehensive approach to solving a critical financial problem using machine learning. By building a highly accurate and interpretable model, this pipeline showcases the potential of AI to create robust systems that can enhance security and build trust in digital transactions. While not a production-ready system, it serves as a strong proof-of-concept for data-driven fraud detection.
