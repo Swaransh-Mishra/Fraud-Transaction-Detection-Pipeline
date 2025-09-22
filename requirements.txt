@@ -1,0 +1,9 @@
+# requirements.txt
+streamlit
+xgboost
+shap
+pandas
+numpy
+matplotlib
+scikit-learn
+Pillow
